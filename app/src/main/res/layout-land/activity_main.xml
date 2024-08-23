@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".choixActivity"
+    android:orientation="vertical"
+    android:background="@drawable/my_background"
+    >
+
+    <Button
+        android:id="@+id/guide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/keyboard"
+        android:layout_marginTop="20dp"
+        android:hint="Piano Guidé"
+        android:textSize="30sp"
+        android:background="@color/teal_700"
+        ></Button>
+    <Button
+        android:id="@+id/autonome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/pianist"
+        android:hint="Piano Autonome"
+        android:textSize="30sp"
+        android:background="@color/teal_700"
+        ></Button>
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="welcome"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        ></TextView>
+    <Button
+        android:id="@+id/deconnection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:hint="deconnection"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        ></Button>
+  </RelativeLayout>
+</LinearLayout>

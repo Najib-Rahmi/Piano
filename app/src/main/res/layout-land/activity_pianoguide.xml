@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/piano_connect"
+   >
+    <TextView
+        android:id="@+id/text20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="choose your favourite Tune please"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:background="@color/green"
+        android:layout_centerHorizontal="true"
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/tune1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="tune 1 (for beginners)"
+        android:textColor="@color/purple_700"
+        android:textSize="30sp"
+        android:layout_below="@+id/text20"
+        android:layout_marginTop="20dp"
+        android:background="@color/teal_700"
+        >
+    </Button>
+    <Button
+        android:id="@+id/tune2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="tune 2 "
+        android:background="@color/teal_700"
+        android:textSize="30sp"
+        android:layout_below="@+id/tune1"
+        android:layout_marginTop="20dp"
+        >
+    </Button>
+    <Button
+        android:id="@+id/tune3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="tune 3"
+        android:textSize="30sp"
+        android:layout_below="@+id/tune2"
+        android:layout_marginTop="20dp"
+        android:background="@color/teal_700"
+        >
+    </Button>
+    <Button
+        android:id="@+id/back"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Back"
+        android:background="@color/teal_700"
+        android:textSize="30sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentBottom="true"
+        >
+    </Button>
+
+</RelativeLayout>
